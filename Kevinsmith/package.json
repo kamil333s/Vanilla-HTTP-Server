@@ -9,7 +9,10 @@
   "dependencies": {
     "chai": "^3.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai-http": "^2.0.1",
+    "gulp-mocha": "^2.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
